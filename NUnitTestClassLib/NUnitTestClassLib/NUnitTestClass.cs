@@ -18,5 +18,10 @@ namespace NUnitTestClassLib
             Assert.AreEqual(x,y);
 
         }
+        [Test]
+        public void MySecondTest_Conflicts()
+        {
+            Console.WriteLine("Resolving conflicts");
+        }
     }
 }
